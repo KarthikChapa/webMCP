@@ -11,30 +11,12 @@ WebMCP is an AI-powered system that allows you to control a web browser using na
 *   **Real-Time CLI Feedback:** Observe the AI's actions and retrieved information in real-time.
 *   **Python-based:** Built with Python, Playwright, and FastAPI (for potential server extension).
 
-## Project Structure
-
-```
-WebMCP_GitHub_Release/
-├── src/
-│   ├── browser/
-│   │   ├── __init__.py
-│   │   └── automation.py   # Playwright browser automation logic
-│   ├── llm/
-│   │   ├── __init__.py
-│   │   └── client.py       # LLM client (OpenRouter)
-│   ├── __init__.py
-│   ├── cli_mcp.py          # Main CLI application
-│   └── config.py           # Configuration loader
-├── .env.example            # Example environment file
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
-```
 
 ## Setup
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repo-url>
+    git clone https://github.com/KarthikChapa/webMCP.git
     cd WebMCP_GitHub_Release
     ```
 
@@ -64,7 +46,6 @@ WebMCP_GitHub_Release/
         ```env
         OPENROUTER_API_KEY="YOUR_OPENROUTER_API_KEY_HERE"
         ```
-        Get your API key from [OpenRouter.ai](https://openrouter.ai/).
 
 ## Usage
 
